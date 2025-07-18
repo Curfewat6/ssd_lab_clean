@@ -1,0 +1,40 @@
+# === Node ===
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# === Logs ===
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+**/.logs
+
+# === Environment Files ===
+**/.env
+**/.env.local
+
+# === Build Output ===
+client/build/
+client/.next/
+client/out/
+server/dist/
+
+# === OS Generated ===
+.DS_Store
+Thumbs.db
+
+# === VSCode ===
+.vscode/
+
+# === Testing ===
+coverage/
+*.lcov
+
+# === Other ===
+*.sqlite
+*.sqlite3
+*.bak
+*.pem
