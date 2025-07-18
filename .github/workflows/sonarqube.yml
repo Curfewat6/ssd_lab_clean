@@ -21,7 +21,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        working-directory: ssd_lab_clean
+        working-directory: client
         run: npm install
 
       - name: SonarQube Scan
